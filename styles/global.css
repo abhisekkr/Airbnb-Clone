@@ -1,0 +1,19 @@
+@tailwind components;
+
+@layer components {
+	.button {
+		@apply px-4 py-2 border rounded-full cursor-pointer hover:shadow-lg active:scale-95 active:bg-gray-100 transition transform duration-200 ease-out hover:border-black;
+	}
+	.pageCountActive {
+		@apply bg-black text-white rounded-full p-2  cursor-pointer hover:bg-gray-300 hover:text-black hover:transition duration-200 ease-out;
+	}
+	.pageCount {
+		@apply hover:rounded-full p-2 cursor-pointer hover:bg-gray-300 hover:transition duration-200 ease-out;
+	}
+	.footer {
+		@apply grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-y-10 px-32 py-14 bg-gray-200 text-gray-600 mx-auto;
+	}
+	.footerItem {
+		@apply space-y-4 text-xs text-gray-800 ml-20 cursor-pointer hover:underline;
+	}
+}
