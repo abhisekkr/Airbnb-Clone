@@ -1,29 +1,34 @@
-# Next.js + Tailwind CSS Example
+# Airbnb Clone
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v2.2)](https://blog.tailwindcss.com/tailwindcss-2-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+Airbnb Clone , A NextJS Webapp using Tailwind CSS , Fully responsive with Integrated Mapbox API , Search for Airbnb rooms at a place with Date and No. of Guest picker Fnctionality.
 
-It uses the new [`Just-in-Time Mode`](https://tailwindcss.com/docs/just-in-time-mode) for Tailwind CSS.
+## Project Overview
+ 
+## Application Links
 
-## Preview
+Deployed URL --> [http://airbnb-clone-teal-chi.vercel.app/](http://airbnb-clone-teal-chi.vercel.app/)
 
-Preview the example live on [StackBlitz](http://stackblitz.com/):
+## Tech Stack
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+<b>Frontend</b>: ReactJS , NextJS
+<br>
+<b>Styling</b>: Tailwind CSS
+<br>
+<b> Authentication<b>: Next Auth (Google)
+<br>
+<b>State Management<b>: REDUX
 
-## Deploy your own
+## Overall Functionality 
+- Searching for Airbnb rooms at Places with Date and No. of Guest picker
+- Display of Rooms location on live Map using Mapbox API
+- Fully Responsive
+- SignIn/SignOut using Next Authentication
+  
+## Upcoming Features
+- Payment Booking for Room booking.
+- Unique Rooms for every place search with Live location
+  
+***Glad to see you here! If liked , Do star the repo , THANK YOU !
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
+[![LinkedIn](https://img.shields.io/static/v1.svg?label=connect&message=@abhisek-kumar&color=grey&logo=linkedin&style=flat&logoColor=white&colorA=blue)](https://www.linkedin.com/in/abhisek-kumar-a32677191/)  [![Instagram](https://img.shields.io/static/v1.svg?label=follow&message=@abbhisekk&color=grey&logo=instagram&style=flat&logoColor=white&colorA=blue)](https://www.instagram.com/abbhisekk/)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
-
-## How to use
-
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
-
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-# or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
